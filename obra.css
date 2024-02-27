@@ -1,0 +1,28 @@
+
+
+
+/*   */
+body { background-color: #301860;}
+body{text-align: center;}
+.h1{color: #906090;}
+.h1{height: 10px;}
+.h2{color: #906090;}
+.h2{height: 100px;}
+.h3{color: bisque;}
+
+.form{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+.l2{border-radius: 8px;}
+.l2{block-size: 20px;}
+.l2{background-color:rgb(53, 46, 46);}
+
+.botao-enviar input{background-color: rgb(98, 107, 107);
+border-radius: 50px;
+color: white;
+padding: 8px;}
+
+.botao-enviar input:hover {
+    background-color: #fcfbfc;
+    color: rgb(0, 0, 0);
+    transition: 2s;}
+

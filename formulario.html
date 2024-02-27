@@ -4,65 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
+    <link rel="stylesheet" href="obra.css">
 </head>
 <body>
 
     <!--TITULO  -->
 
-    <h1>FORMULARIO DE INSCRIÇÃO</h1>
+    <h1 class="h1">FORMULARIO DE INSCRIÇÃO</h1>,
  
-    <!-- SUB-TITULO -->
+     <!-- SUB-TITULO -->
     
-    <h2>PREENCHA SEUS DADOS</h2>
+    <h2 class="h2">PREENCHA SEUS DADOS</h2>
     
     <!-- INCRIÇÕES TABELA -->
 
     
-    <form>
+    <form class="form">
 
-        <label for="nome">Nome </label>
-        <input type="text" placeholder="nome" required> <br> <br> 
+        <label for="nome" class="h3">Nome </label>
+        <input type="text" placeholder="nome" required class="l2"> <br> <br> 
 
-        <label for="sobrenome">Sobrenome</label>
-        <input type="text" placeholder="sobrenome"> <br> <br>
+        <label for="sobrenome" class="h3">Sobrenome</label>
+        <input type="text" placeholder="sobrenome" class="l2"> <br> <br>
        
        
-        <label for="email">email</label>
-        <input type="email" placeholder="email" required> <br> <br>
+        <label for="email" class="h3">email</label>
+        <input type="email" placeholder="email" required class="l2"> <br> <br>
        
        
-        <label for="endereco">Endereço</label>
-        <input type="text" placeholder="endereço"> <br> <br>
+        <label for="endereco" class="h3">Endereço</label>
+        <input type="text" placeholder="endereço" class="l2"> <br> <br>
        
        
-        <label for="cidade">Cidade</label>
-        <input type="text" placeholder="cidade"> <br> <br>
+        <label for="cidade" class="h3">Cidade</label>
+        <input type="text" placeholder="cidade" class="l2"> <br> <br>
        
         <!-- numero tag select -->
         
-        <label for="telefone">telefone</label>
+        <label for="telefone" class="h3">telefone</label>
         
-        <select name="" id="">
+        <select name="" id="" class="l2">
         
         <option value="11">11</option> 
         <option value="21">21</option>
         <option value="33">33</option>
         
-        <input type="number" placeholder="telefone"> <br> <br>
+        <input type="number" placeholder="telefone" class="l2"> <br> <br>
         
         </select>
        
-        <label for="usuario">Usiário</label>
-        <input type="text" placeholder="crie seu usuario" required> <br> <br>
+        <label for="usuario" class="h3">Usiário</label>
+        <input type="text" placeholder="crie seu usuario" required class="l2"> <br> <br>
         
-        <label for="senha">Senha</label>
-        <input type="password" placeholder="senha" required> <br> <br>
+        <label for="senha" class="h3">Senha</label>
+        <input type="password" placeholder="senha" required class="l2"> <br> <br>
 
-
+    <div class="botao-enviar">
         <input type="submit" value="Finalizar cadastro">
         <input type="reset" value="Apagar Tudo">
+    </div>
+    
 
-    </form>
+</form>
 
 </body>
 </html>
